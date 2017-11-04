@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WEBSITE NAME HERE</title>
+</head>
+<body>
+    {% if not session %}
+    <div>
+    <a href="">a nav link</a><span> | </span><a href="">Login</a><span> | </span><a href="">Sign out</a>
+    </div>
+    {% endif %}
+
+    {% if session %}
+
+    <div>
+    <a href="" >A nav link</a><span> | </span><a href="">a nav link</a><span> | </span><a href="">a nav link</a>
+    <span> | </span><a href="/logout">Logout</a>
+    </div>
+    {% endif %}
+
+{% block content %}
+{% endblock %}
+</body>
+</html>
