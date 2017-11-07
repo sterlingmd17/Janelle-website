@@ -1,4 +1,4 @@
-# www.Swirls.com
+# SwirlsbyJanelle
 A web app being built for Pastry chef Janelle, built with Python and Flask.
 
 ## Getting Started
