@@ -1,4 +1,4 @@
-#www.Swirls.com
+# www.Swirls.com
 A web app being built for Pastry chef Janelle, built with Python and Flask.
 
 ## Getting Started
@@ -7,7 +7,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-#####What things you need to install the software and how to install them
+##### What things you need to install the software and how to install them
 
 1. First clone the repository onto your machine.
 
