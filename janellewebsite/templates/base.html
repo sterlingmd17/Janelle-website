@@ -1,22 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>WEBSITE NAME HERE</title>
+    <title>SwirlzbyJanelle</title>
 </head>
 <body>
-    {% if not session %}
-    <div>
-    <a href="/order">Order</a><span> | </span><a href="">Login</a><span> | </span><a href="">Sign out</a>
-    </div>
-    {% endif %}
 
-    {% if session %}
-
-    <div>
-    <a href="" >A nav link</a><span> | </span><a href="">a nav link</a><span> | </span><a href="">a nav link</a>
-    <span> | </span><a href="/logout">Logout</a>
-    </div>
-    {% endif %}
+    <nav>
+        <h2><a href="/" >Home</a></h2><span> | </span>
+        <h2><a href="/order">Order</a></h2><span> | </span>
+        <h2><a href="/gallery">Gallery</a></h2>
+    </nav>
 
 {% block content %}
 {% endblock %}

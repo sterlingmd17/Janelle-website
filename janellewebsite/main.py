@@ -11,7 +11,7 @@ app.secret_key= "nelly"
 @app.route('/', methods=['POST', 'GET'])
 def index():
     # index will have rolling slideshow of linkable pictures of recipes.
-    return render_template("index.html")
+    return render_template("test.html")
 
 if __name__ == '__main__':
     app.run()
