@@ -1,5 +1,6 @@
 from flask import Flask, request, redirect, render_template, session, flash
-from models import app, Recipe,
+from app import app
+from models import Recipe
 
 @app.route('/', methods=['POST', 'GET'])
 def index():
@@ -9,9 +10,9 @@ def index():
     b = 'inactive'
     c = 'inactive'
 
-    arecipe = Recipe.
+    recipes = Recipe.query.all()
 
-    return render_template("index.html", a=a, b=b, c=c, )
+    return render_template("index.html", a=a, b=b, c=c, recipes=recipes)
 
 if __name__ == '__main__':
     app.run()

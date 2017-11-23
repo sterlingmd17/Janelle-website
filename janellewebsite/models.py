@@ -1,11 +1,7 @@
-from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-app = Flask(__name__)
-app.config['DEBUG'] = True
-app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://nelly:nelly@localhost:3306/nelly'
-app.config['SQLALCHEMY_ECHO'] = True
+from app import app
+
 db = SQLAlchemy(app)
-app.secret_key= "nelly"
 
 class Recipe(db.Model):
     id = db.Column(db.Integer, primary_key=True)
