@@ -1,0 +1,23 @@
+#recipedisplaypic {
+  margin-top:40px;
+  margin-bottom:40px;
+}
+
+#login {
+  background-color:rgba(57,251,251,0.83);
+  color:#222222;
+  border-radius:17px;
+}
+
+.container.recdis-cont {
+  background-color:rgba(249,67,159,0.08);
+}
+
+#nav {
+  background-color:#f46baf;
+}
+
+#carousel-cont {
+  margin-bottom:90px;
+}
+
