@@ -10,7 +10,7 @@ def index():
 
     recipes = Recipe.query.all()
 
-    return render_template("index.html", a=a, recipes=recipes)
+    return render_template("testttt.html", a=a, recipes=recipes)
 
 @app.route('/recipe', methods=['GET'])
 def recipe():
