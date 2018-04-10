@@ -1,6 +1,5 @@
 from flask import Flask, request, redirect, render_template, session, flash
-from app import app
-from models import Recipe
+from models import Recipe, app
 
 @app.route('/', methods=['POST', 'GET'])
 def index():
